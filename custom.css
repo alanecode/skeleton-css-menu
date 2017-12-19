@@ -1,3 +1,30 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Device Adaptation
+- Header
+- Sections
+*/
+
+/* Device Adaptation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
+@viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+/* Header
+-------------------------------------------------- */
 .header {
   margin-top: 6rem;
   text-align: center; }
+
+/* Sections
+-------------------------------------------------- */
+.docs-section {
+  margin-top: 4rem;
+}
