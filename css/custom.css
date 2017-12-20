@@ -68,16 +68,10 @@ a.to_nav {
     float: right;
     color: #fff;
     background: #4e4e4e;
-    text-decoration: none;
-    padding: 6px 10px;
-    font-size: 16px;
-    line-height: 22px;
-    height: 62px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    padding: 5px 12px 2px 11px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 a.to_nav:hover,
