@@ -101,6 +101,7 @@ div.to_nav > a {
 #primary_nav ul {
   display: block;
   margin-top: 4rem;
+  margin-bottom: 4rem;
   /*height: 18em;*/
   list-style: none;
   background: #1c1c1c;
@@ -133,4 +134,12 @@ div.to_nav > a {
 #primary_nav li a:focus {
     color: #1c1c1c;
     background: #ccc;
+}
+
+/* Footer
+------------------------------------------------- */
+footer {
+    font-style: italic;
+    text-align: center;
+    font-size: 14px;
 }
