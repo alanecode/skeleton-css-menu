@@ -114,9 +114,13 @@ div.to_nav > a {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     letter-spacing: 0.1em;
-    line-height: 2em;
-    height: 4em;
+    line-height: 3em;
+    height: 3em;
     border-bottom: 1px solid #383838;
+}
+
+#primary_nav li {
+  margin-bottom: 0rem;
 }
 
 #primary_nav li:last-child a {
