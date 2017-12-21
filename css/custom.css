@@ -1,12 +1,13 @@
 /* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
 - Device Adaptation
 - Header
+- Title
 - Sections
+- Navigation
 */
 
 /* Device Adaptation
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+-------------------------------------------------- */
 @viewport{
     zoom: 1.0;
     width: device-width;
@@ -18,21 +19,11 @@
 }
 
 /* Header
--------------------------------------------------- */
-.header {
-  margin-top: 6rem;
-  text-align: center; }
-
-/* Sections
--------------------------------------------------- */
-.docs-section {
-  margin-top: 4rem;
-}
-
-/* Header
 based on https://webdesign.tutsplus.com/articles/a-simple-responsive-mobile-first-navigation--webdesign-6074
 -------------------------------------------------- */
 header {
+        
+    text-align: center;
     background: #1c1c1c;
     padding: 1rem 2rem;
     position:  relative;
@@ -88,6 +79,18 @@ div.to_nav > a {
   width:100%;
   height:100%;
   color: #fff;
+}
+
+/* Title
+-------------------------------------------------- */
+.page-title {
+  margin-top: 6rem;
+  text-align: center; }
+
+/* Sections
+-------------------------------------------------- */
+.docs-section {
+  margin-top: 4rem;
 }
 
 /* Navigation
