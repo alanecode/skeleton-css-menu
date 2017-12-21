@@ -136,6 +136,22 @@ div.to_nav > a {
     background: #ccc;
 }
 
+/* horizontal lists for navigation */
+.list-inline {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.copyright {
+    text-align: center;
+}
+
 /* Footer
 ------------------------------------------------- */
 footer {
