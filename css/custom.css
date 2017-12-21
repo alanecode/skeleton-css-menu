@@ -53,8 +53,10 @@ h1.logo a {
     text-transform: uppercase;
     font-size: 20px;
     line-height: 22px;
-    float: left;
     letter-spacing: 0.2em;
+    position: absolute;
+    left: 1.3rem;
+    top: 3.1rem;
   }
 
 div.to_nav {
@@ -64,8 +66,8 @@ div.to_nav {
     -moz-border-radius: 7px;
     border-radius: 7px;
     position:  absolute;
-    right: 1.4rem;
-    top: 1.4rem;
+    right: 1.3rem;
+    top: 1.3rem;
 }
 
 div.to_nav:hover,
