@@ -83,13 +83,14 @@ div.to_nav > a {
 
 /* Title
 -------------------------------------------------- */
-.page-title {
+#page-title {
   margin-top: 6rem;
   text-align: center; }
 
 /* Sections
 -------------------------------------------------- */
 .docs-section {
+  /* add space between page sections */
   margin-top: 4rem;
 }
 
@@ -97,10 +98,11 @@ div.to_nav > a {
 ------------------------------------------------- */
 #primary_nav ul {
   display: block;
-    /*height: 18em;*/
-    list-style: none;
-    background: #1c1c1c;
-    padding: 5px 0;
+  margin-top: 4rem;
+  /*height: 18em;*/
+  list-style: none;
+  background: #1c1c1c;
+  
 }
 
 #primary_nav li a {
