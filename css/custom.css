@@ -159,3 +159,7 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+
+.list-inline li {
+  padding: 0px 10px;
+}
