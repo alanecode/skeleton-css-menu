@@ -4,6 +4,8 @@
 - Title
 - Sections
 - Navigation
+- Footer
+- Media Queries for Large Screens
 */
 
 /* Device Adaptation
@@ -22,7 +24,7 @@
 based on https://webdesign.tutsplus.com/articles/a-simple-responsive-mobile-first-navigation--webdesign-6074
 -------------------------------------------------- */
 header {
-        
+
     text-align: center;
     background: #1c1c1c;
     padding: 1rem 2rem;
@@ -102,10 +104,9 @@ div.to_nav > a {
   display: block;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  /*height: 18em;*/
   list-style: none;
   background: #1c1c1c;
-  
+
 }
 
 #primary_nav li a {
@@ -174,30 +175,32 @@ footer {
     color: #ccc;
 }
 
-/* Media Queries
+/* Media Queries for Large Screens
 ------------------------------------------------- */
 @media only screen and (min-width: 768px) {
+      /* hide menu button when displaying on large screens */
       div.to_nav {
         display: none;
     }
-     
+
+     /* style page navigation at top of screen */
     .container {
         position: relative;
         width: 768px;
         margin: auto;
     }
-     
+
     #primary_nav {
         position: absolute;
         top: 1px;
         right: 10px;
         background: none;
     }
-     
+
     #primary_nav li {
         display: inline;
     }
-     
+
     #primary_nav li a {
         display: inline;
         border: none;
@@ -207,8 +210,8 @@ footer {
         border-radius: 2px;
     }
 
+    /* add space between end of content and top of footer */
     footer {
       margin-top: 2.5rem;
     }
- 
-}
+ }
