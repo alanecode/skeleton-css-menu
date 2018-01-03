@@ -162,11 +162,11 @@ footer {
 /* Media Queries
 ------------------------------------------------- */
 @media only screen and (min-width: 768px) {
-      a.to_nav {
+      div.to_nav {
         display: none;
     }
      
-    .wrapper {
+    .container {
         position: relative;
         width: 768px;
         margin: auto;
