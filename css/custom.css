@@ -101,6 +101,7 @@ div.to_nav > a {
 #primary_nav ul {
   display: block;
   margin-top: 4rem;
+  margin-bottom: 4rem;
   /*height: 18em;*/
   list-style: none;
   background: #1c1c1c;
@@ -157,6 +158,20 @@ footer {
     font-style: italic;
     text-align: center;
     font-size: 14px;
+}
+
+.list-inline li {
+  padding: 0px 10px;
+}
+
+.list-inline li a {
+  color: #4e4e4e;
+
+}
+
+.list-inline li a:hover,
+.list-inline li a:focus {
+    color: #ccc;
 }
 
 /* Media Queries
